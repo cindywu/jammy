@@ -11,10 +11,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "nanoid": "^4.0.0",
     "next": "12.3.1",
+    "pg-promise": "^10.12.0",
+    "pusher": "^5.1.1-beta",
+    "pusher-js": "^7.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tauri-plugin-sql": "github:tauri-apps/tauri-plugin-sql#488558717b77d8a2bcb37acfd2eca9658aeadc8e"
+    "replicache": "^11.2.0",
+    "replicache-react": "^2.10.0",
+    "tauri-plugin-sql-api": "github:tauri-apps/tauri-plugin-sql#dev"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.1.1",
