@@ -13,7 +13,8 @@
   "dependencies": {
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tauri-plugin-sql": "github:tauri-apps/tauri-plugin-sql#488558717b77d8a2bcb37acfd2eca9658aeadc8e"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.1.1",
