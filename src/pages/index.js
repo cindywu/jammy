@@ -22,6 +22,7 @@ export default function Home() {
             });
           },
         },
+        pullInterval: 500,
       });
     listen(rep);
     setRep(rep);
