@@ -10,7 +10,7 @@ export default function Home() {
     (async () => {
       const rep = new Replicache({
         name: 'chat-user-id',
-        licenseKey: 'l077f51b26f854f218b25a96e2e29b9eb',
+        licenseKey: process.env.NEXT_PUBLIC_REPLICACHE_LICENSE_KEY,
         pushURL: '/api/replicache-push',
         pullURL: '/api/replicache-pull',
         mutators: {
